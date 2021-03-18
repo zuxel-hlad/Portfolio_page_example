@@ -137,6 +137,10 @@
       justify-content: space-around;
       gap: 70px 0;
     }
+    &__item:hover {
+      transform: unset;
+      filter: unset;
+    }
   }
 
   .price {
